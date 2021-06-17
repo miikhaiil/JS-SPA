@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.previewDetails{
+  text-align: center;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+  border-color: #f1356d;
+}
+.preview{
+  text-align: center;
+  border-style: solid;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+  border-color: #f1356d;
+}
+.preview:hover{
+  background-color: #ff5789;
+}
+.links{
+  text-decoration: none;
+}
+
+.preview:hover p{
+  color: white;
+}
+.preview:hover h2{
+  color: white;
+}
+
+.button {
+  background-color: transparent;
+  border-style: hidden;
+}
+
+.editButton {
+  background-color: transparent;
+  border-style: hidden;
+}
+
+.deleteImage {
+  width: 32px;
+  height: 32px;
+}
+.deleteImage:hover {
+  filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(116deg) brightness(114%) contrast(101%);
+}
+
+.editImage {
+  width: 32px;
+  height: 32px;
+}
+.editImage:hover {
+  filter: invert(42%) sepia(94%) saturate(5424%) hue-rotate(326deg) brightness(102%) contrast(89%);
+}
+
+
+.center {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.head{
+  font-weight: bold;
+}
+.header{
+  text-align: center;
+}
+
+table {
+  background-color:#f5f5f5;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.item:hover {background-color:#dbdbdb;}
+
+
+/*add book*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
